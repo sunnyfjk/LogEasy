@@ -38,7 +38,9 @@ const char *log_easy_config_path(void) {
     if (name == NULL)
         goto export_log_easy_path;
 
-    ret = stat(name, &statbuf);
+    snprintf(path, sizeof(path), "%s/log_easy.json", name);
+
+    ret = stat(path, &statbuf);
     if (ret == 0)
         goto analysis_log_easy_config;
 
