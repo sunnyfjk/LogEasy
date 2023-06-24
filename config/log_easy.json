@@ -1,72 +1,54 @@
 {
-  "category":[
+  "category": [
     {
-      "name": "INFO",
-      "stream": [
-        {
-          "path": "stderr",
-          "appender": {
-            "name": "stream"
-          }
-        },
-        {
-          "path": "a.log",
-          "appender": {
-            "name": "stream"
-          }
-        }
-      ]
+      "type": "INFO",
+      "appender": "stderr"
     },
     {
-      "name": "DEBUG",
-      "stream": [
-        {
-          "path": "stderr",
-          "appender": {
-            "name": "stream"
-          }
-        },
-        {
-          "path": "a.log",
-          "appender": {
-            "name": "stream"
-          }
-        }
-      ]
+      "type": "INFO",
+      "appender": "file"
     },
     {
-      "name": "ERROR",
-      "stream": [
-        {
-          "path": "stderr",
-          "appender": {
-            "name": "stream"
-          }
-        },
-        {
-          "path": "a.log",
-          "appender": {
-            "name": "stream"
-          }
-        }
-      ]
+      "type": "INFO",
+      "appender": "stdout"
     },
     {
-      "name": "ARRAY",
-      "stream": [
-        {
-          "path": "stderr",
-          "appender": {
-            "name": "stream"
-          }
-        },
-        {
-          "path": "a.log",
-          "appender": {
-            "name": "stream"
-          }
-        }
-      ]
+      "type": "DEBUG",
+      "appender": "stderr"
+    },
+    {
+      "type": "DEBUG",
+      "appender": "file"
+    },
+    {
+      "type": "DEBUG",
+      "appender": "stdout"
+    },
+    {
+      "type": "ERROR",
+      "appender": "stderr"
+    },
+    {
+      "type": "ERROR",
+      "appender": "file"
+    },
+    {
+      "type": "ERROR",
+      "appender": "stdout"
+    }
+  ],
+  "appender": [
+    {
+      "type": "stderr",
+      "path": "stderr"
+    },
+    {
+      "type": "stdout",
+      "path": "stdout"
+    },
+    {
+      "type": "file",
+      "path": "a.log"
     }
   ]
 }
