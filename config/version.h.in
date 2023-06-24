@@ -1,0 +1,8 @@
+#ifndef __@UPPER_PROJECT_NAME@_VERSION_H__
+#define __@UPPER_PROJECT_NAME@_VERSION_H__
+
+const char *get@PROJECT_NAME@BuildVersion(void);
+
+const char *get@PROJECT_NAME@BuildDatetime(void);
+
+#endif

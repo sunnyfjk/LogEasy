@@ -1,0 +1,26 @@
+//
+// Created by fjk on 2023/1/20.
+//
+
+#include <@PROJECT_NAME@Version.h>
+
+#define BUILD_DATETIME @BUILD_DATETIME@
+#define BUILD_VERSION "@BUILD_VERSION@"
+
+/*!
+ * 获取@PROJECT_NAME@库的版本信息
+ * @return 返回当前库版本信息
+ */
+const char *get@PROJECT_NAME@BuildVersion(void)
+{
+return BUILD_VERSION;
+}
+
+/*!
+ * 获取@PROJECT_NAME@库的构建日期
+ * @return 返回当前库的构建日期
+ */
+const char *get@PROJECT_NAME@BuildDatetime(void)
+{
+return BUILD_DATETIME;
+}

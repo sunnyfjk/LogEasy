@@ -1,0 +1,72 @@
+{
+  "category":[
+    {
+      "name": "INFO",
+      "stream": [
+        {
+          "path": "stderr",
+          "appender": {
+            "name": "stream"
+          }
+        },
+        {
+          "path": "a.log",
+          "appender": {
+            "name": "stream"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DEBUG",
+      "stream": [
+        {
+          "path": "stderr",
+          "appender": {
+            "name": "stream"
+          }
+        },
+        {
+          "path": "a.log",
+          "appender": {
+            "name": "stream"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ERROR",
+      "stream": [
+        {
+          "path": "stderr",
+          "appender": {
+            "name": "stream"
+          }
+        },
+        {
+          "path": "a.log",
+          "appender": {
+            "name": "stream"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ARRAY",
+      "stream": [
+        {
+          "path": "stderr",
+          "appender": {
+            "name": "stream"
+          }
+        },
+        {
+          "path": "a.log",
+          "appender": {
+            "name": "stream"
+          }
+        }
+      ]
+    }
+  ]
+}
